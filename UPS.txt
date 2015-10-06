@@ -1,0 +1,54 @@
+apcupsd-gapcmon-3.14.10-1.el5.i386.rpm 	2011-10-04 	67.0 kB 	22 weekly downloads 	i
+apcupsd-multimon-3.14.10-1.el4.i386.rpm 	2011-10-04 	39.4 kB 	33 weekly downloads 	i
+apcupsd-multimon-3.14.10-1.el5.i386.rpm 	2011-10-04 	37.1 kB 	22 weekly downloads 	i
+apcupsd-3.14.10-1.el4.x86_64.rpm 	2011-10-04 	479.6 kB 	33 weekly downloads 	i
+apcupsd-gapcmon-3.14.10-1.el4.x86_64.rpm 	2011-10-04 	68.3 kB 	11 weekly downloads 	i
+apcupsd-multimon-3.14.10-1.el4.x86_64.rpm 	2011-10-04 	37.3 kB 	22 weekly downloads 	i
+apcupsd-3.14.10-1.el5.x86_64.rpm 	2011-10-02 	487.5 kB 	88 weekly downloads 	i
+apcupsd-gapcmon-3.14.10-1.el5.x86_64.rpm 	2011-10-02 	66.7 kB 	11 weekly downloads 	i
+apcupsd-multimon-3.14.10-1.el5.x86_64.rpm 	2011-10-02 	38.5 kB 	22 weekly downloads 	i
+ReleaseNotes 	2011-10-02 	4.3 kB 	22 weekly downloads 	i
+apcupsd-multimon-3.14.10-1.su114.i586.rpm 	2011-10-02 	25.7 kB 	11 weekly downloads 	i
+apcupsd-gapcmon-3.14.10-1.su114.i586.rpm 	2011-10-02 	54.4 kB 	11 weekly downloads 	i
+apcupsd-3.14.10-1.su114.i586.rpm 	2011-10-02 	347.7 kB 	22 weekly downloads 	i
+apcupsd-3.14.10-1.src.rpm 	2011-10-02 	1.4 MB 	11 weekly downloads 	i
+Recommended Projects
+
+    Icon
+    Linux GUI Monitor for APCUPSD
+    Icon
+    WinMust
+    Icon
+    Windows NUT client
+
+Deals
+
+
+/var/www/apcupsd/multimon.cgi
+
+
+[root@temper apcupsd]# ls /dev/bus/usb/
+001  002  003  004  005
+
+
+
+[root@temper apcupsd]# dmesg | grep Smart
+usb 4-1: Product: Smart-UPS 3000 RM FW:666.6.I USB FW:7.4
+generic-usb 0003:051D:0002.212F: hiddev96,hidraw0: USB HID v1.10 Device [American Power Conversion Smart-UPS 3000 RM FW:666.6.I USB FW:7.4] on usb-0000:00:1d.2-1/input0
+usb 4-1: Product: Smart-UPS 3000 RM FW:666.6.I USB FW:7.4
+generic-usb 0003:051D:0002.2132: hiddev96,hidraw0: USB HID v1.10 Device [American Power Conversion Smart-UPS 3000 RM FW:666.6.I USB FW:7.4] on usb-0000:00:1d.2-1/input0
+usb 5-2: Product: Smart-UPS 3000 RM FW:666.6.I USB FW:7.4
+generic-usb 0003:051D:0002.213B: hiddev97,hidraw1: USB HID v1.10 Device [American Power Conversion Smart-UPS 3000 RM FW:666.6.I USB FW:7.4] on usb-0000:00:1d.3-2/input0
+
+466
+
+AS1331241333
+AS1204146466
+
+
+ DEVICE /dev/bus/usb/004/003
+ /dev/bus/usb/005/013
+ 
+ # lsusb -D  /dev/bus/usb/005/013
+
+ 
